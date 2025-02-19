@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.759);
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .btn-contato button, .hero-site button{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 40px;
+}
+
+.menu-desktop nav ul{
+    list-style-type: none;
+}
+
+.menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.menu-desktop nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+header .btn-contato button{
+    width: 130px;
+    height: 40px;
+}
+
+
+header .btn-contato button:hover, .hero-site button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+section.hero-site{
+    height: 100vh;
+    background-image: url(../img/bg-inicio-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 300;
+}
+
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 700;
+}
+
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p span{
+    display: block;
+}
+
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+}
+
